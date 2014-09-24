@@ -116,7 +116,7 @@ class Parameter extends \ReflectionParameter
 	}
 
 
-	public function &__get($name)
+	/*public function &__get($name)
 	{
 		return ObjectMixin::get($this, $name);
 	}
@@ -125,7 +125,7 @@ class Parameter extends \ReflectionParameter
 	public function __set($name, $value)
 	{
 		ObjectMixin::set($this, $name, $value);
-	}
+	}*/
 
 
 	public function __isset($name)
